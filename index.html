@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/programme.css">
+    <link rel="stylesheet" href="css/last.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    
+    
+<body>
+    <section id="one">
+        <nav class="nav-bar">
+            <ul class="nav-items">
+                <li class="nav-item"><a class="nav-link" href="#"> Acceuil</a></li>
+                <li class="nav-item"><a class="nav-link"  href="#myPro">Programme</a></li>
+                <li class="nav-item"><a class="nav-link" href="#myInfo">Info Pratique</a></li>
+                <li class="nav-item"><a class="nav-link" href="#myContact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1> <a href="">VisitCasbah.com</a> </h1>
+        <div class="toggle">
+            <a onclick="showMenu()" href="#"><img class="menu" src="res/img/icon.svg"><img class="close" src="res/img/ferme.svg"></a>
+        </div>
+    </section>
+
+    <main>
+        <div class="cards">
+            <div class="card">
+                <div class="card-description">
+                  <h2>La Grande Poste</h2>
+                  <p>La Grande Poste d'Alger est située au cœur d'Alger. Elle est le principal repère touristique d'Alger-Centre avec ses nombreuses terrases pour vous acceuilir.
+                  </p>
+                  <button class="btn">Voir le programme</button>
+                </div>
+                <img onclick="desc()" class="card-img" src="res/img/316648426_898327208217501_2959567684350321230_n.jpg">
+
+            </div>
+            <div class="card">
+                
+                <div class="card-description">
+                   <h2>Notre dame d'afrique</h2>
+                   <p>Edifice construit en 1858,la basilique de notre dame d'afrique et un monument historique de la capitale aves son panorama a couper le souffle et sa vue sur la baie d'alger.</p>
+                   <button class="btn">Voir le programme</button>
+                </div>
+                <img onclick="desc()" class="card-img" src="res/img/photo notre dame.jpg">
+            </div>
+            <div class="card">
+                <div class="card-description descrip">
+                   <h2>Jardin d'essai </h2>
+                   <p>Le jardin d'essai se situe dans le quartier du Hamma Alger, il offre à la capitale une vraie bouffée d’oxygène et une vue imprenable sur le monument des martyrs. Ce jardin a une réputation mondiale.</p>
+                   <button class="btn">Voir le programme</button>
+
+                </div>
+                <img onclick="desc()" class="card-img" src="res/img/316709429_5412953465494481_1936167485710800265_n.jpg">
+
+                
+            </div>
+
+
+        </div>
+
+        <section id="two">
+            <div class="prgrm" id="myPro">
+                <h1 class="ttl-prgrm" >Nos Programmes!</h1>
+            </div>
+
+        <div class="cards-prgrm">
+                <div class="card-prgrm">
+                  <div class="slider">
+                    <div class="slides">
+                        <div class="slide"><img class="img-prgrm" src="res/img/kamel-bouziane-CUdD99MGPVo-unsplash.jpg"></div>
+                        <div class="slide"><img class="img-prgrm" src="res/img/casbah-alger-8.jpg"></div>
+                        <div class="slide"><img class="img-prgrm" src="res/img/alger-centre.jpg"></div>
+                    </div>
+                  </div>
+                    
+                    <div class="descrip-prgrm descrip-one">
+                        <h2>2 jours de visite de tout les lieux historique de la Capitale</h2>
+                        <p>au programme : Monument des martyrs , La Casbah , Alger-centre.</p>
+                        <button class="btn-prgrm">Reservez</button>
+
+                        <div class="stars">
+                            <i class="lar la-star" data-value="1"></i>
+                            <i class="lar la-star" data-value="2"></i>
+                            <i class="lar la-star" data-value="3"></i>
+                            <i class="lar la-star" data-value="4"></i>
+                            <i class="lar la-star" data-value="5"></i>
+                        </div>
+                        <div class="price ">
+                            <p>a partir de 4500 DA</p>
+                        </div>
+                    </div>
+
+                    
+
+                    
+                    
+                </div>
+
+                <div class="card-prgrm">
+                    <div class="slider slider-two">
+                      <div class="slides slides-two">
+                          <div class="slide"><img class="img-prgrm" src="res/img/Sidi Fredj - ESPACE ALGÉRIE.jpg"></div>
+                          <div class="slide"><img class="img-prgrm" src="res/img/sablette.jpg"></div>
+                          <div class="slide"><img class="img-prgrm" src="res/img/photo notre dame.jpg"></div>
+                      </div>
+                    </div>
+                      
+                      <div class="descrip-prgrm descrip-two">
+                          <h2>Excursion priver de 2 jours avec un programme riche a alger avec tout ses reliefs </h2>
+                          <p>au programme : Le port de Sidi fredj, Promenade des sablette, jardin d'essai.</p>
+                          <button class="btn-prgrm">Reservez</button>
+  
+                          <div class="stars">
+                              <i class="lar la-star" data-value="1"></i>
+                              <i class="lar la-star" data-value="2"></i>
+                              <i class="lar la-star" data-value="3"></i>
+                              <i class="lar la-star" data-value="4"></i>
+                              <i class="lar la-star" data-value="5"></i>
+                          </div>
+                          <div class="price price-two">
+                              <p class="price-two">a partir de 6900 DA</p>
+                          </div>
+
+                </div>      
+                </div>
+
+                <div class="card-prgrm">
+                    <div class="slider slider-three">
+                      <div class="slides">
+                          <div class="slide"><img class="img-prgrm img-three" src="res/img/musee-national-des-beaux.jpg"></div>
+                          <div class="slide"><img class="img-prgrm img-three" src="res/img/bastion23.jpg"></div>
+                          <div class="slide"><img class="img-prgrm img-three" src="res/img/muse martyr.jpg"></div>
+                      </div>
+                    </div>
+                      
+                      <div class="descrip-prgrm descrip-two">
+                          <h2>Un programme pour les amateurs de culturs et d'histoire .</h2>
+                          <p>un programme riche en sortie avec : Le bastion 23 , Musée des beaux arts et le musée des martyrs . </p>
+                          <button class="btn-prgrm">Reservez</button>
+  
+                          <div class="stars">
+                              <i class="lar la-star" data-value="1"></i>
+                              <i class="lar la-star" data-value="2"></i>
+                              <i class="lar la-star" data-value="3"></i>
+                              <i class="lar la-star" data-value="4"></i>
+                              <i class="lar la-star" data-value="5"></i>
+                          </div>
+                          <div class="price ">
+                              <p>a partir de 5800 DA</p>
+                          </div>
+                      </div>
+  
+                      
+  
+                      
+                      
+                  </div>
+
+
+        </div> 
+
+
+        </section>
+    
+        <article id="three">
+            <div class="info-box" id="myInfo">
+                <h1 class="ttl-boxes" >Info Pratique d'Alger</h1>
+            </div>
+
+            <div class="boxes">
+                <div class="box">
+                    <h4>Transports</h4>
+                    <div class="info">
+                        <p><span>Metro</span>: Alger et desservi d'une ligne de metro de 18Km de longeurs reliant : l'aeroport international (houari boumediene)du centre ville (place des martyrs). <br>
+                        <span>Tramway</span>: La banlieue est d'alger a sa propre ligne avec plusieurs stations : de ruisseau jusqu'a dergana <div class="br"></div>
+                        <span>Taxi</span>: de nombreuses navette sont faites a travers toutes la capitales . <br>
+                        <span>VTC</span> : plusieurs société ont emergees ces derniers annees dans le domaine du vtc les plus connu et fiable sont : Yassir , Heetch , Koursa. <br>
+                        <span>Telepherique</span> : 6 ligne de telepherique sont actuellement en service a alger ,parmi eux: Jardin d'essai → Monument des martyrs , Bassilique de notre dame d'afrique → Bologhine. <br>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Hotel</h4>
+                    <div class="info">
+                        <ul class="list-hotel">
+                            <li >Hôtel Hilton à Mohammadia</li>
+                            <li>Hôtel Saint-George à El Mouradia</li>
+                            <li>AZ Hotels Kouba</li>
+                            <li>Holiday Inn Algiers</li>
+                            <li>Sheraton club des pins ressort</li>
+                            <li>Sofitel Algiers Hamma Hotel</li>
+                            <li>Ibis Alger Aeroport Hotel</li>
+                            <li>EL Aurassi Hotel</li>
+                            <li>Algiers Mariott Hotel Bab Ezzouar</li>
+                            <li>Ferdi lilly Hotel</li>
+                            <li>Mercure Algiers Aeroport</li>
+                            <li>Hyatt Regency Alger</li>
+                            <li>Dar diaf Hotel</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Bon a savoir</h4>
+                    <div class="info">
+                        <p><span>Monnaie :</span>Dinar Algeriens . <br>
+                            <span>Indicatif telephonique :</span> +213. <br>
+                            <span>Operateurs telephonique local :</span>Djezzy ,Ooredoo , Mobilis. <br>
+                            <span>Week-end:</span>Vendredi , Samedi . <br>
+                            <span>Climat :</span>Alger et une ville avec un climat assez doux ,grace a son emplacement au sud de la mer méditerranée. <br>
+                        </p>
+                    </div>
+                </div>
+                
+
+            </div>
+
+
+        </article>
+        <article id="for">
+            <div class="info-boxes"  id="myContact">
+                <h1 class="ttl-box">Contact</h1>
+            </div>
+            <div class="contacts">
+                
+                <div class="contact">
+                    <div class="icon-place">
+                        <img class="icons" src="res/img/telephone-fill.svg">
+                    </div> 
+                    <div><h3>Numero de telephone.</h3>
+                         <p class="cresp">+213(07.70.34.48.65)</p>
+                    </div>
+                </div>
+                
+                <div class="contact">
+                    <div class="icon-place">
+                        <img class="icons"  src="res/img/envelope-fill.svg">
+                    </div>
+                    <div>
+                        <h3>Email.</h3>
+                        <p class="cresp">VisitCasbah@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact">
+                    <div class="icon-place">
+                        <img class="icons" src="res/img/geo-alt-fill.svg">
+                    </div>
+                    <div>
+                        <h3>Siege principal.</h3>
+                        <p class="cresp">31 Rue abou moussa el achari , El Hammamet Alger</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <footer>
+            <div class="foot">Tous droits réservés ©</div>
+           
+        </footer>
+
+
+
+
+    </main>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

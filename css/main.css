@@ -1,0 +1,72 @@
+/* mobile first */
+.cards{
+    display: block;
+    padding: 5px;
+}
+h2{
+    font-size: 1em;
+    text-align: center;
+}
+.card{
+    position: relative;
+}
+.card-img{
+    margin-left: 18px;
+    max-width: 100%;
+}
+.card-description{
+    position: absolute;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin-left: 1px;
+}
+
+.card:hover .card-description{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:block;
+    position: absolute;
+    margin-left: 28%; 
+    z-index: 1;
+    margin-right: 23%;
+    margin-top: 40%;
+    border-radius: 2px;
+    background-color: white;
+}
+.card:hover .card-img{
+    filter: blur(2px);
+}
+.btn{
+    position: relative;
+    left: 20%;
+    border: 1.5px solid black;
+    background-color:white;
+    padding: 2px;
+    cursor: pointer;
+    color: black;
+}
+
+@media only screen and (min-width:750px){
+    .cards{
+        display: grid;
+        grid-template-columns:400px 400px 400px  ;
+        grid-template-rows:100px ;
+        gap:5px ;
+        margin: 25px;
+    }
+    .card-img{
+        height: 400px;
+        width: 360px;
+    }
+    .card:hover .card-description{
+        position: absolute;
+        margin-left: 28%; 
+        z-index: 1;
+        margin-right: 29%;
+        margin-top: 25%;
+        border-radius: 2px;
+        background-color: white;
+    }
+
+    
+}
